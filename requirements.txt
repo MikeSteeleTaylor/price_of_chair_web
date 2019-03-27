@@ -4,5 +4,5 @@ beautifulsoup4==4.7.1
 requests==2.21.0
 passlib==1.7.1
 Werkzeug==0.14.1
-uwsgi
+unweb.recipe.uwsgi==0.4
 
