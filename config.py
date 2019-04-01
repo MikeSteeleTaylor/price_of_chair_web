@@ -4,4 +4,4 @@ __author__ = 'mktlr'
 
 
 DEBUG = False
-ADMINS = os.environ.get('ADMINS')
+ADMINS = frozenset([os.environ.get('ADMINS')])
