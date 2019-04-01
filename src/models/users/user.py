@@ -18,7 +18,6 @@ class User(object):
     def __repr__(self):
         return "<User {}>".format(self.email)
 
-
     @staticmethod
     def is_login_valid(email, password):
         """
@@ -38,7 +37,6 @@ class User(object):
             pass
 
         return True
-
 
     @staticmethod
     def register_user(email, password):
@@ -76,4 +74,3 @@ class User(object):
 
     def get_alerts(self):
         return Alert.find_by_user_email(self.email)
-

@@ -66,5 +66,3 @@ def create_store():
         return redirect(url_for('.index'))
 
     return render_template('stores/new_store.html')
-
-
