@@ -1,8 +1,6 @@
 from functools import wraps
-
 from flask import session, url_for, request
 from werkzeug.utils import redirect
-
 from src.app import app
 
 __author__ = 'mktlr'
@@ -26,6 +24,3 @@ def requires_admin_permissions(func):
             return redirect(url_for('users.login_user'))
         return func(*args, **kwargs)
     return decorated_function
-
-
-

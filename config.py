@@ -3,5 +3,5 @@ import os
 __author__ = 'mktlr'
 
 
-DEBUG = True
+DEBUG = False
 ADMINS = os.environ.get('ADMINS')
