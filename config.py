@@ -4,4 +4,4 @@ __author__ = 'mktlr'
 
 
 DEBUG = False
-ADMINS = frozenset(['mikesteeletaylor@gmail.com'])
+ADMINS = frozenset([os.environ.get('ADMINS')])
